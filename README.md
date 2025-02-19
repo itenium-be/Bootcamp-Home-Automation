@@ -36,3 +36,9 @@ Date: 28/03/2025
 - [ ] Breakoutroom idea custom dashboards with floorplan https://aarongodfrey.dev/home%20automation/creating-a-3d-floorplan-in-home-assistant/
 - [ ] Breakoutroom idea api
 
+
+## Extra Material Needed
+
+- Breadboards
+- Soldeerbouten & draad
+- Neopreen kabel: Kabelmes en/of tang (misschien best meerdere)

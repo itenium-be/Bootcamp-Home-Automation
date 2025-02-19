@@ -1,5 +1,14 @@
-SmartStopContact Materials
-==========================
+SmartStopContact
+================
+
+## Potential Uses
+
+- Koffiezet
+- Smart Kerstboom --> Mini kerstboom meebrengen naar bootcamp!
+
+
+
+## Materials
 
 [HLK-PM01 HLK-PM03 HLK-PM12 AC-DC 220V Naar 5V/3.3V/12V Mini Voeding Module Intelligente huishoudelijke Schakelaar HLK-5M05 HLK-PM12](https://nl.aliexpress.com/item/4000105687486.html?spm=a2g0o.productlist.main.3.28a5Pg7qPg7qH5&algo_pvid=64e3280a-2968-45c1-b7b2-363bd3f4f9b7&algo_exp_id=64e3280a-2968-45c1-b7b2-363bd3f4f9b7-0&pdp_ext_f=%7B%22order%22%3A%22150%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21EUR%213.18%212.19%21%21%213.22%212.22%21%402103892f17393589714211553ee734%2110000000273814766%21sea%21BE%210%21ABX&curPageLogUid=tEqtcAiDeM1r&utparam-url=scene%3Asearch%7Cquery_from%3A)
 
