@@ -1,11 +1,35 @@
-Home Automation
-===============
+# Home Automation
+## Intro
+- [ ] Slides include https://www.youtube.com/watch?v=nwPtcqcqz00 and maybe https://www.youtube.com/watch?v=6MzmIUwFzds
+- [ ] Demo
 
-Date: 28/03/2025
+## Hardware Sessie 
+ - [ ] Order hardware list https://docs.google.com/document/d/1uEll13DtT6_7z5dLHPOcgOqEnN1J7ekUywYKfuPW-q8/edit?usp=sharing
 
-Home Automation filmken: https://www.youtube.com/watch?v=nwPtcqcqz00
-Vervolg filmpje met meeuwen?  https://www.youtube.com/watch?v=6MzmIUwFzds
+### Stopcontact
+- [ ] Slides
+- [ ] Step by Step Manual
+- [ ] Make example
+- [ ] Make test setup
+- [ ] Extension: https://www.youtube.com/watch?v=nqdmppiqGAk
 
-- Smart stopcontact
-- Poort open/dicht
-- Iets met sensor
+### Doorbell
+- [ ] Slides
+- [ ] Step by Step Manual
+- [ ] Make example
+- [ ] Make test setup
+
+### Garagedoor
+- [ ] Slides
+- [ ] Step by Step Manual
+- [ ] Make example
+- [ ] Make test setup
+
+## Home assistant
+- [ ] Slides about home assistant, hacs, dashboards and adding existing IoT solutions
+- [ ] Step by Step manual to setup home assistant with docker on the laptop
+- [ ] Make examples with the houses 
+- [ ] Make test setup with location, sensors, timeslots, ...
+- [ ] Breakoutroom idea custom dashboards with floorplan https://aarongodfrey.dev/home%20automation/creating-a-3d-floorplan-in-home-assistant/
+- [ ] Breakoutroom idea api
+
