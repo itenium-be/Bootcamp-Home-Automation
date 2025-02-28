@@ -4,7 +4,9 @@ SmartStopContact
 ## Potential Uses
 
 - Koffiezet
+- Leeslamp
 - Smart Kerstboom --> Mini kerstboom meebrengen naar bootcamp!
+- Pomp voor een fontein of bewatering moestuin
 
 
 
