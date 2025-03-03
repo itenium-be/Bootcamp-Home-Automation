@@ -3,42 +3,49 @@
 Date: 28/03/2025
 
 ## Intro
-- [ ] Slides include https://www.youtube.com/watch?v=nwPtcqcqz00 and maybe https://www.youtube.com/watch?v=6MzmIUwFzds
-- [ ] Demo
+- [x] Slides include https://www.youtube.com/watch?v=nwPtcqcqz00 and maybe https://www.youtube.com/watch?v=6MzmIUwFzds
+- [x] Demo
 
 ## Hardware Sessie 
  - [ ] Order hardware list https://docs.google.com/document/d/1uEll13DtT6_7z5dLHPOcgOqEnN1J7ekUywYKfuPW-q8/edit?usp=sharing
 
 ### Stopcontact
-- [ ] Slides
-- [ ] Step by Step Manual
-- [ ] Make example
-- [ ] Make test setup
+- [ ] Slides (1h)
+- [x] Step by Step Manual
+- [x] Make example
+- [ ] Make test setup 
+- [ ] Make 3D design (4h)
+- [ ] Print the 3D designs
 - [ ] Extension: https://www.youtube.com/watch?v=nqdmppiqGAk
 
 ### Doorbell
-- [ ] Slides
-- [ ] Step by Step Manual
-- [ ] Make example
-- [ ] Make test setup
+- [ ] Slides (1h)
+- [ ] Step by Step Manual (1h)
+- [ ] Make example (1h)
+- [ ] Make test setup (3h)
 
 ### Garagedoor
-- [ ] Slides
-- [ ] Step by Step Manual
-- [ ] Make example
-- [ ] Make test setup
+- [ ] Slides (1h)
+- [ ] Step by Step Manual (1h)
+- [ ] Make example (1h)
+- [ ] Make test setup (3h)
 
 ## Home assistant
-- [ ] Slides about home assistant, hacs, dashboards and adding existing IoT solutions
-- [ ] Step by Step manual to setup home assistant with docker on the laptop
-- [ ] Make examples with the houses 
-- [ ] Make test setup with location, sensors, timeslots, ...
-- [ ] Breakoutroom idea custom dashboards with floorplan https://aarongodfrey.dev/home%20automation/creating-a-3d-floorplan-in-home-assistant/
-- [ ] Breakoutroom idea api
+- [ ] Slides about home assistant, hacs, dashboards and adding existing IoT solutions (4h)
+- [ ] Step by Step manual to setup home assistant with docker on the laptop (2h)
+- [ ] Make examples with the houses (8h)
+- [ ] Make test setup with location, sensors, timeslots, ... (2h)
+- [ ] Breakoutroom idea custom dashboards with floorplan https://aarongodfrey.dev/home%20automation/creating-a-3d-floorplan-in-home-assistant/ (3h)
+- [ ] Breakoutroom idea api (2h)
 
 
 ## Extra Material Needed
 
 - Breadboards
-- Soldeerbouten & draad
-- Neopreen kabel: Kabelmes en/of tang (misschien best meerdere)
+- Soldeerbouten (Bert heeft 1) & draad
+- Stanleymes 3 stuks (Bert heeft 1)
+- Ontmanteltang 2 stuks 
+- Kniptang 2 stuks (Bert heeft 1)
+- Kniptang 2 stuks (Bert heeft 1)
+- Kleine platte schroevendraaier 3 stuks (Bert heeft er 2)
+- Schroevendraaiers voor de stekkers maat unknow 
