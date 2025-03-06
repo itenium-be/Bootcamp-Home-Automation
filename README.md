@@ -41,10 +41,12 @@ Date: 28/03/2025
 ## Extra Material Needed
 
 - Breadboards
-- Soldeerbouten (Bert heeft 1) & draad
-- Stanleymes 3 stuks (Bert heeft 1)
-- Ontmanteltang 2 stuks 
-- Kniptang 2 stuks (Bert heeft 1)
-- Kniptang 2 stuks (Bert heeft 1)
+- Soldeerbouten (Bert, Jochem) & draad
+- Stanleymes 3 stuks (Bert)
+- Ontmanteltang 2 stuks
+- Kniptang 2 stuks (Bert)
 - Kleine platte schroevendraaier 3 stuks (Bert heeft er 2)
-- Schroevendraaiers voor de stekkers maat unknow 
+- Schroevendraaiers voor de stekkers maat unknown
+- Raspberry pi met wifi (Jochem)
+
+Heleen De Meue (Stanleymes, Ontmanteltang, Kniptang, Kleine platte schroevendraaier)
