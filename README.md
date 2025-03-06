@@ -31,12 +31,11 @@ Date: 28/03/2025
 - [ ] Make test setup (3h)
 
 ## Home assistant
-- [ ] Slides about home assistant, hacs, dashboards and adding existing IoT solutions (4h)
-- [ ] Step by Step manual to setup home assistant with docker on the laptop (2h)
-- [ ] Make examples with the houses (8h)
-- [ ] Make test setup with location, sensors, timeslots, ... (2h)
+- [x] Slides about home assistant, hacs, dashboards and adding existing IoT solutions (4h)
+- [x] Make examples with the houses (8h)
+- [x] Make test setup with location, sensors, timeslots, ... (2h)
 - [ ] Breakoutroom idea custom dashboards with floorplan https://aarongodfrey.dev/home%20automation/creating-a-3d-floorplan-in-home-assistant/ (3h)
-- [ ] Breakoutroom idea api (2h)
+- [ ] Make exercises (4h)
 
 
 ## Extra Material Needed

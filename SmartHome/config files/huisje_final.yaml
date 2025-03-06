@@ -3,7 +3,7 @@ esphome:
   friendly_name: Huisje1
 
 esp32:
-  board: esp32-pro
+  board: esp32dev
   framework:
     type: arduino
 
@@ -85,7 +85,7 @@ light:
       - addressable_rainbow:
           name: Rainbow Effect With Custom Values
           speed: 10
-          width: 4
+          width: 200
 
 sensor:
   - platform: dht
