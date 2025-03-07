@@ -34,8 +34,8 @@ Date: 28/03/2025
 - [x] Slides about home assistant, hacs, dashboards and adding existing IoT solutions (4h)
 - [x] Make examples with the houses (8h)
 - [x] Make test setup with location, sensors, timeslots, ... (2h)
-- [ ] Breakoutroom idea custom dashboards with floorplan https://aarongodfrey.dev/home%20automation/creating-a-3d-floorplan-in-home-assistant/ (3h)
-- [ ] Make exercises (4h)
+- [x] Breakoutroom idea custom dashboards with floorplan https://aarongodfrey.dev/home%20automation/creating-a-3d-floorplan-in-home-assistant/ (3h)
+- [x] Make exercises (4h)
 
 
 ## Extra Material Needed
