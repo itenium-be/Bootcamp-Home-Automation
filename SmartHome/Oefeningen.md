@@ -37,5 +37,3 @@ Dit zijn slechts enkele voorstellen, gebruik zeker je eigen verbeelding om leuke
 - [ ] Gebruik de 'swipe-card' om alle sensor cards achter elkaar te steken.
 - [ ] Gebruik de 'stack in card' om enkele cards samen te voegen zonder randen. Denk bijvoorbeeld aan de tempratuur en humidity die samen horen.
 - [ ] Gebruik 'sweet home 3D' om een floorplan te maken en dat toe te voegen als dashboard m.b.v. NdR91.
-
-
