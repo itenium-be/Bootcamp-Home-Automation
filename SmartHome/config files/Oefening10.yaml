@@ -41,19 +41,6 @@ web_server:
 binary_sensor:
   - platform: gpio
     pin:
-      number: GPIO34
-      inverted: false
-    name: "Steam"  
-
-  - platform: gpio
-    pin:
-      number: GPIO14
-      inverted: false
-    name: "Motion Sensor"
-    device_class: motion
-
-  - platform: gpio
-    pin:
       number: GPIO16
       mode: INPUT_PULLUP
       inverted: true
@@ -66,6 +53,20 @@ binary_sensor:
       inverted: true
     name: "Right Button"
 
+  - platform: gpio
+    pin:
+      number: GPIO34
+      inverted: false
+    name: "Steam"  
+
+  - platform: gpio
+    pin:
+      number: GPIO14
+      inverted: false
+    name: "Motion Sensor"
+    device_class: motion
+
+  
 light:
   - platform: monochromatic
     name: "LED"
@@ -87,6 +88,40 @@ light:
           speed: 10
           width: 200
 
+output:
+  - platform: ledc
+    id: led
+    pin: GPIO12
+
+  - platform: ledc
+    pin: GPIO25
+    id: buzzer_output
+
+  - platform: ledc
+    id: doors_output
+    pin: GPIO13
+    frequency: 50 Hz
+
+  - platform: ledc
+    id: window_output
+    pin: GPIO05
+    frequency: 50 Hz
+
+switch:
+  - platform: template
+    name: "Buzzer Switch"
+    optimistic: true
+    turn_on_action:
+      - output.turn_on: buzzer_output
+      - output.ledc.set_frequency:
+          id: buzzer_output
+          frequency: 2000Hz  # Adjust frequency as needed
+      - output.set_level:
+          id: buzzer_output
+          level: 15%  # Adjust volume as needed
+    turn_off_action:
+      - output.turn_off: buzzer_output
+
 sensor:
   - platform: dht
     pin: GPIO17
@@ -104,35 +139,6 @@ servo:
   - id: doors_servo
     output: doors_output
 
-output:
-  - platform: ledc
-    id: window_output
-    pin: GPIO05
-    frequency: 50 Hz
-
-  - platform: ledc
-    id: doors_output
-    pin: GPIO13
-    frequency: 50 Hz
-
-  - platform: ledc
-    id: led
-    pin: GPIO12
-
-  - platform: ledc
-    pin: GPIO25
-    id: buzzer_output
-
-  - platform: ledc
-    pin: GPIO18
-    id: fan_forward
-    frequency: 25000 Hz
-    
-  - platform: ledc
-    pin: GPIO19
-    id: fan_reverse
-    frequency: 25000 Hz
-
 number:
   - platform: template
     name: window servo
@@ -146,6 +152,7 @@ number:
         id: window_servo
         level: !lambda 'return x / 100.0;'
 
+
   - platform: template
     name: doors servo
     min_value: -100
@@ -157,41 +164,3 @@ number:
     - servo.write:
         id: doors_servo
         level: !lambda 'return x / 100.0;'
-
-  - platform: template
-    name: "Fan Speed"
-    min_value: -100
-    max_value: 100
-    step: 1
-    initial_value: 0
-    optimistic: true
-    set_action:
-      then:
-        - lambda: |-
-            float speed = abs(x) / 100.0;
-            if (x > 0) {
-              id(fan_forward).set_level(speed);
-              id(fan_reverse).set_level(0);
-            } else if (x < 0) {
-              id(fan_forward).set_level(0);
-              id(fan_reverse).set_level(speed);
-            } else {
-              id(fan_forward).set_level(0);
-              id(fan_reverse).set_level(0);
-            }
-
-
-switch:
-  - platform: template
-    name: "Buzzer Switch"
-    optimistic: true
-    turn_on_action:
-      - output.turn_on: buzzer_output
-      - output.ledc.set_frequency:
-          id: buzzer_output
-          frequency: 2000Hz  # Adjust frequency as needed
-      - output.set_level:
-          id: buzzer_output
-          level: 15%  # Adjust volume as needed
-    turn_off_action:
-      - output.turn_off: buzzer_output

@@ -2,16 +2,18 @@
 Dit zijn slechts enkele voorstellen, gebruik zeker je eigen verbeelding om leuke ideeën uit te werken.
 
 ## ESPHome
-- [ ] Voeg een nieuw ESP32 device toe in ESPHome met een ESP32.
-- [ ] Voeg 'left button' en 'right button' toe respectievelijk op poorten GPIO16 en GPIO27.
-- [ ] Voeg de 'steam' sensor toe op poort GPIO34.
-- [ ] Voeg de 'Motion' sensor toe op poort GPIO14.
-- [ ] Voeg de 'Led' toe op poort GPIO12.
-- [ ] Voeg de 'Buzzer' toe op poort GPIO25.
-- [ ] Voeg de 'Deur' servo motor toe op poort GPIO13. Zorg dat je deze kunt instellen tussen de -100 en 100 die zich vertaalt naar -1 en +1 voor de servo motor.
-- [ ] Voeg de 'RGB Led' toe op poort GPIO26, probeer zeker ook eens de effects.
-- [ ] Voeg de 'RFID' toe via I2C op adress 0x28.
-- [ ] Voeg de 'LCD  toe via I2C op adress 0x27.
+De oplossingen voor deze oefeningen vind je terug in de 'config files' folder.
+- [ ] 1. Voeg een nieuw ESP32 device toe in ESPHome and give it a manual IP adress.
+- [ ] 2. Voeg 'left button' en 'right button' toe respectievelijk op poorten GPIO16 en GPIO27.
+- [ ] 3. Voeg de 'steam' sensor toe op poort GPIO34.
+- [ ] 4. Voeg de 'Motion' sensor toe op poort GPIO14.
+- [ ] 5. Voeg de 'Led' toe op poort GPIO12.
+- [ ] 6. Voeg een switch 'Buzzer' toe op poort GPIO25 (zet de buzzer op 2000Hz en 15% volume).
+- [ ] 7. Voeg de 'RGB Led' toe op poort GPIO26, zorg voor een slider van 0 tot 255 om de helderheid te bepalen, probeer zeker ook eens de effects toe te voegen als opties.
+- [ ] 8. Voeg de 'Humidity & Temprature' toe op poort GPIO13.
+- [ ] 9. Voeg de 'Deur' servo motor toe op poort GPIO13. Zorg dat je deze kunt instellen tussen de -100 en 100 die zich vertaalt naar -1 en +1 voor de servo motor.
+- [ ] 10. Voeg de 'Window' servo motor toe op poort GPIO05. Zorg dat je deze kunt instellen tussen de 0 en 100 die zich vertaalt naar +1 voor de servo motor.
+- [ ] 11. Voeg de 'Fan' motor toe op poort GPIO18 en GPIO19. Zorg dat je deze kunt instellen tussen de -100 en 100 die zich vertaalt naar max speed counter clockwise en max speed clockwise
 
 ## Home assistant automation
 
