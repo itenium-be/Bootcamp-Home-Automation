@@ -5,8 +5,22 @@ SmartStopContact
 
 - Koffiezet
 - Leeslamp
-- Smart Kerstboom --> Mini kerstboom meebrengen naar bootcamp!
-- Pomp voor een fontein of bewatering moestuin
+- Smart Kerstboom
+- Pomp voor bewatering planten
+--> zoek met chatGPT betere voorbeelden
+
+Instructies
+-----------
+
+Soldering
+600°- 650°F (316°- 343°C) is a good place to start for lead-based solder and 650°- 700°F (343°- 371°C) for lead-free solder.
+
+
+
+HLK-PM01: draden naar de binnenkant
+
+Flashen voordat het ineen gestoken wordt 😀
+--> voeg tussen de instructies toe
 
 
 

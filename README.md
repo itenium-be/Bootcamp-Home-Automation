@@ -1,6 +1,9 @@
 # Home Automation
 
 Date: 28/03/2025
+Wifi: Itenium2025 / DenBerg1840!
+Den Berg: Bergkapelstraat 98, 1840 Londerzeel
+
 
 ## Intro
 - [x] Slides include https://www.youtube.com/watch?v=nwPtcqcqz00 and maybe https://www.youtube.com/watch?v=6MzmIUwFzds
@@ -27,11 +30,18 @@ Date: 28/03/2025
 - [ ] Make example (1h)
 - [ ] Make test setup (3h)
 
+
+https://tweakers.net/reviews/12992/slimme-deurbel-voor-15-euro-maak-je-deurbel-zelf-slim-met-esphome.html
+
+
 ### Garagedoor
 - [ ] Slides (1h)
 - [ ] Step by Step Manual (1h)
 - [ ] Make example (1h)
 - [ ] Make test setup (3h)
+
+https://www.youtube.com/watch?v=8Hwu4ZahLa0&ab_channel=ReidProjects%7CSmartHome%26Tech
+
 
 ## Home assistant
 - [x] Slides about home assistant, hacs, dashboards and adding existing IoT solutions (4h)
