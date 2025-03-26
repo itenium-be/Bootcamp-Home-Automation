@@ -1,7 +1,10 @@
 # Home Automation
 
-Date: 28/03/2025
-Wifi: Itenium2025 / DenBerg1840!
+- Date: 28/03/2025
+- Wifi: Itenium2025 / DenBerg1840!
+  - Gateway: 172.16.10.254
+  - Subnet: 255.255.252.0
+
 Den Berg: Bergkapelstraat 98, 1840 Londerzeel
 
 
