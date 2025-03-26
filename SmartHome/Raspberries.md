@@ -16,6 +16,7 @@ login
 nmcli device wifi list
 nmcli device wifi rescan
 nmcli device wifi connect [SSID-Name] --ask
+nmcli device wifi connect Itenium2025 --ask
 ip address
 ```
 
@@ -26,6 +27,8 @@ Wifi: Itenium2025 / DenBerg1840!
 
 Install
 -------
+
+image: https://www.home-assistant.io/installation/raspberrypi/#downloading-the-home-assistant-image
 
 Settings > Add-ons > Add-on Store (rechts vanonder)
 Install:
@@ -39,7 +42,7 @@ Install:
 Open Terminal:
 
 ```sh
-wget -o - https://get.hacs.xyz | bash -
+wget -O - https://get.hacs.xyz | bash -
 --> -O ?
 ```
 

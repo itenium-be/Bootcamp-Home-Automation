@@ -1,0 +1,11 @@
+<div class="card mb-4 position-relative">
+  <img src="{{ "/assets/img/materials/" | append: include.material.img | relative_url }}" class="card-img-top">
+  <div class="card-img-overlay d-flex align-items-end p-0">
+    <div class="w-100 text-white py-2 px-3" style="background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0));">
+      <h5 class="card-title mb-0">{{ include.material.name }}</h5>
+      {%- if include.material.text -%}
+        <p class="card-text">{{ include.material.text }}</p>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
