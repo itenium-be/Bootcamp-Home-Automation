@@ -1,0 +1,32 @@
+---
+layout: page
+title: ESP Flashing
+permalink: /esp-flashing
+---
+
+<header>
+  <h1>Instructies: {{ page.title | escape }}</h1>
+</header>
+
+<div class="d-flex align-items-center justify-content-center gap-3">
+  <img src="{{ '/assets/img/materials/esp01-usb-adapter.png' | relative_url }}" class="img-fluid" style="max-width: 150px;">
+  <i class="fas fa-plus fa-3x"></i>
+  <img src="{{ '/assets/img/materials/ESP01.png' | relative_url }}" class="img-fluid" style="max-width: 150px;">
+</div>
+
+{%- assign stepNr = 0 -%}
+
+<div class="container pt-3">
+  <div class="row">
+    {%- for step in site.data.espflash -%}
+      {%- assign stepNr = stepNr | plus: 1 -%}
+      <div class="col-6 mb-4">
+        <div class="instruction-step position-relative bg-light">
+          <span class="step-number">{{ stepNr }}</span>
+          <img src="{{ "/assets/img/esp-flash/" | append: step.img | relative_url }}" class="instruction-image">
+          {% include step-text.html step=step %}
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>

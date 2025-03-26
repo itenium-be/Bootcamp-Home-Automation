@@ -1,0 +1,87 @@
+- section: Preparation
+
+- title: Neopreen Kabel Prep
+  img: step1.png
+  steps:
+    - Gebruik de kniptang om twee stukken neopreen kabel te knippen van elk ongeveer 30 centimeter.
+    - Gebruik het stanleymes om de buitenste huls te verwijderen op 5cm van elk uiteinde.
+
+- img: step2.png
+  steps: Neem de ontmanteltang en ontdoe elke afzonderlijke draad van zijn bescherming op 2 centimeter van het uiteinde.
+
+- title: Jumper Draad Prep
+  img: step3.png
+  steps: Neem twee jumper draden en ontdoe ze van de uiteinden met een kniptang en van hun isolatie met een ontmanteltang.
+
+- title: Krimpkous Prep
+  img: step4.png
+  steps: Gebruik het stanleymes om een stuk krimpkous van 4 centimeter te snijden.
+
+
+
+
+- section: ESP01 Flashing
+  button:
+    url: /esp-flashing
+    text: How-to Flash
+
+- img: step8.png
+  steps: Haal de ESP01 van de relais en flash deze met behulp van de USB adapter.
+
+
+
+
+- section: Soldering HLK-PM01 (5V)
+
+
+- img: step5.png
+  steps:
+    - Toorts de uiteinden van elke kabel.
+    - Vouw de blauwe en bruine uiteinden dubbel en plaats deze over AC beentje van de HLK-PM01 (best een beetje boven de plastieken behuizing).
+    - <b>Om in de behuizing te krijgen best naar binnen solderen</b>
+    - Soldeer deze draden vast aan de benen (doe dit met twee, aangezien je vaak handen tekort komt).
+
+- img: step6.png
+  steps: Herhaal dit nu met de twee jumper draden aan de +V0 en -V0 beentjes.
+
+- img: step7.png
+  steps: Bevestig nu de draden volgens het volgende schema.
+
+
+
+
+- section: Soldering Aarding
+
+- img: step9.png
+  steps:
+    - Knip de aardingsdraden bij indien nodig.
+    - Bevestig de krimpkous over één van de aardingsdraden.
+
+- img:
+    - step10.png
+    - step11.png
+  steps: Soldeer deze aan elkaar.
+
+- img: step12.png
+  steps: Schuif de krimpkous over de ontblote koper.
+
+- img:
+    - step13.png
+    - step14.png
+  steps: Verhit met achterkant van de soldeerbout.
+
+
+
+
+- section: Stekkers
+
+- img:
+    - step15.png
+    - step16.png
+  steps: Bevestig de male stekker aan die bevestigd is aan de HLK-PM01.
+
+- img: step17.png
+  steps: ""
+
+- img: step18.png
+  steps: Bevestig de female stekker aan de kabel die uit de relais komt.
