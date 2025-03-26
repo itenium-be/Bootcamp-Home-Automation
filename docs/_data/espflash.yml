@@ -1,10 +1,10 @@
 - img: flash1.png
   steps:
-    - Browse naar http://homeassistant.local:8123/ en navigeer naar ESPHome
-    - Klik "New Device"
+    - Browse naar http://your-home-assistant-name.local:8123/ en navigeer naar ESPHome
+    - Klik "+ New Device"
 
 - img: flash2.png
-  steps: Geef je device een naam.
+  steps: Geef je device een naam ("mijn mega stopcontact").
 
 - img: flash3.png
   steps: Kies je development board (voor het smartstopcontact is dit ESP8266).
@@ -21,14 +21,18 @@
 - img: flash7.png
   steps: Save and install + Klik manual download
 
+- section: Flashing
+
 - img: flash8.png
-  steps: Ga naar https://web.esphome.io/ en klik connect
+  steps: Ga naar <a href="https://web.esphome.io/">https://web.esphome.io/</a> en klik connect
 
 - img: flash9.png
   steps: Selecteer de USB Serial
 
 - img: flash10.png
-  steps: Kies eenmalig voor de prepare for first use en doorloop dit
+  steps: Kies eenmalig voor de "prepare for first use" en doorloop dit
+
+- section: Connecting
 
 - img: flash11.png
   steps: Kies nu voor install

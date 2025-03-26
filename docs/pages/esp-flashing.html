@@ -4,6 +4,15 @@ title: ESP Flashing
 permalink: /esp-flashing
 ---
 
+<div class="float-end pt-2">
+  <a href="{{ "/esp-fast-flashing" | relative_url }}">
+    <span class="badge bg-info fs-5">
+      <i class="fas fa-compress"></i>
+      TL&amp;DR
+    </span>
+  </a>
+</div>
+
 <header>
   <h1>Instructies: {{ page.title | escape }}</h1>
 </header>
@@ -19,14 +28,29 @@ permalink: /esp-flashing
 <div class="container pt-3">
   <div class="row">
     {%- for step in site.data.espflash -%}
-      {%- assign stepNr = stepNr | plus: 1 -%}
-      <div class="col-6 mb-4">
-        <div class="instruction-step position-relative bg-light">
-          <span class="step-number">{{ stepNr }}</span>
-          <img src="{{ "/assets/img/esp-flash/" | append: step.img | relative_url }}" class="instruction-image">
-          {% include step-text.html step=step %}
+      {%- if step.section -%}
+        <div class="col-12">
+          <div class="time-warp-word" data-text="Waiting" style="font-size: 36px; text-align: center">
+            {{ step.section }}
+            {{ step.section }}
+            {{ step.section }}
+            {{ step.section }}
+            {{ step.section }}
+            {{ step.section }}
+            {{ step.section }}
+            {{ step.section }}
+          </div>
         </div>
-      </div>
+      {%- else -%}
+        {%- assign stepNr = stepNr | plus: 1 -%}
+        <div class="col-6 mb-4">
+          <div class="instruction-step position-relative bg-light">
+            <span class="step-number">{{ stepNr }}</span>
+            <img src="{{ "/assets/img/esp-flash/" | append: step.img | relative_url }}" class="instruction-image">
+            {% include step-text.html step=step %}
+          </div>
+        </div>
+      {%- endif -%}
     {%- endfor -%}
   </div>
 </div>

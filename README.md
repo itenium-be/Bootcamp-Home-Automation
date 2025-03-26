@@ -5,6 +5,11 @@
   - Gateway: 172.16.10.254
   - Subnet: 255.255.252.0
 
+Gent netwerk: PongITWiFi / gratiswifi
+
+Encryption key:
+/XEQ7QqNjnYsMXJt71ZBuwztn+7gSxO66R73F9OPpF4=
+
 Den Berg: Bergkapelstraat 98, 1840 Londerzeel
 
 

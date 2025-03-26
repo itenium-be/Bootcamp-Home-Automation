@@ -38,3 +38,66 @@ a:focus {
     font-weight: bold;
   }
 }
+
+
+.time-warp-word {
+  height: 200px;
+  z-index: 100;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 15vw;
+  font-weight: 700;
+  color: #4a90e2;
+  position: relative;
+  display: inline-block;
+  animation:
+    timeWarp 3s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite alternate,
+    colorPulse 2.5s infinite alternate;
+  text-shadow: 0 0 20px rgba(74, 144, 226, 0.7);
+}
+
+@keyframes timeWarp {
+  0% {
+    transform:
+      scale(0.7)
+      translateY(-50px)
+      rotate(-10deg);
+    letter-spacing: -10px;
+  }
+  100% {
+    transform:
+      scale(1.2)
+      translateY(50px)
+      rotate(10deg);
+    letter-spacing: 10px;
+  }
+}
+
+@keyframes colorPulse {
+  0% {
+    color: #4a90e2;
+    text-shadow: 0 0 20px rgba(74, 144, 226, 0.7);
+  }
+  100% {
+    color: #00f0ff;
+    text-shadow: 0 0 40px rgba(0, 240, 255, 0.9);
+  }
+}
+
+.time-warp-word::before,
+.time-warp-word::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgba(255,255,255,0.1);
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.time-warp-word::before {
+  transform: translateX(-5px) rotate(-3deg);
+}
+
+.time-warp-word::after {
+  transform: translateX(5px) rotate(3deg);
+}
