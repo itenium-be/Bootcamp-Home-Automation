@@ -30,9 +30,7 @@
   steps: Selecteer de USB Serial
 
 - img: flash10.png
-  steps: Kies eenmalig voor de "prepare for first use" en doorloop dit
-
-- section: Connecting
+  steps: Kies eenmalig voor de "prepare for first use" en doorloop dit. Als je blijft "connecting", check de soldering instructies!
 
 - img: flash11.png
   steps: Kies nu voor install
