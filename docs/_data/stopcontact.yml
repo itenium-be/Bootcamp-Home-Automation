@@ -46,7 +46,9 @@
     - <b>Om in de behuizing te krijgen best naar binnen solderen</b>
     - Soldeer deze draden vast aan de benen (doe dit met twee, aangezien je vaak handen tekort komt).
 
-- img: step5a.png
+- img:
+    - step5a.png
+    - step5b.png
   steps:
     - Besvestig ook de blauwe draad van de andere kant van de stekker aan het beentje waar de andere blauwe draad net gesoldeerd is.
     - Op de pin met de bruine draad solderen we een uiteinde van de korte draad van 8cm uit de voorbereiding.
