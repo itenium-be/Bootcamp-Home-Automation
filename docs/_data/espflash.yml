@@ -1,6 +1,6 @@
 - img: flash1.png
   steps:
-    - Browse naar http://your-home-assistant-name.local:8123/ en navigeer naar ESPHome
+    - Browse naar http://the-reboot-ranch.local:8123/ en navigeer naar ESPHome
     - Klik "+ New Device"
 
 - img: flash2.png
