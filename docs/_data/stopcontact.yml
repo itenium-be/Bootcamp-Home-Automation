@@ -17,6 +17,11 @@
   img: step4.png
   steps: Gebruik het stanleymes om een stuk krimpkous van 4 centimeter te snijden.
 
+- title: Extra draad Prep
+  img: step4a.png
+  steps: Volgende stap is per 3 personen want elk heeft maar één van de draden nodig. Knip een stuk neopreen af van 8cm en ontmantel deze tot 3 afzonderlijke draden en ontmantel de uiteinden.
+
+
 
 
 
@@ -40,6 +45,11 @@
     - Vouw de blauwe en bruine uiteinden dubbel en plaats deze over AC beentje van de HLK-PM01 (best een beetje boven de plastieken behuizing).
     - <b>Om in de behuizing te krijgen best naar binnen solderen</b>
     - Soldeer deze draden vast aan de benen (doe dit met twee, aangezien je vaak handen tekort komt).
+
+- img: step5a.png
+  steps:
+    - Besvestig ook de blauwe draad van de andere kant van de stekker aan het beentje waar de andere blauwe draad net gesoldeerd is.
+    - Op de pin met de bruine draad solderen we een uiteinde van de korte draad van 8cm uit de voorbereiding.
 
 - img: step6.png
   steps: Herhaal dit nu met de twee jumper draden aan de +V0 en -V0 beentjes.
