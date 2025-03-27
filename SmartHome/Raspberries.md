@@ -45,6 +45,9 @@ Open Terminal:
 wget -O - https://get.hacs.xyz | bash -
 ```
 
+Attention: In the "Home Assistant Install Guide.pdf" it says (incorrectly) `wget -o`!!
+
+
 - Developer Tools > Restart > Restart Home Assistant
 - Settings > Devices & services > + Add Integration (rechts onder)
     - hacs
@@ -60,11 +63,12 @@ wget -O - https://get.hacs.xyz | bash -
   - For each "..." > Download
 
 
+Configuration
+-------------
 
-hacs
-----
-
-[Installation Instructions](https://www.hacs.xyz/docs/use/download/download/#to-download-hacs)
-
-- [Visit](https://my.home-assistant.io/redirect/supervisor_addon/?addon=cb646a50_get&repository_url=https%3A%2F%2Fgithub.com%2Fhacs%2Faddons)
-- Install hacs
+- Settings > System > Network > Host name (ie: the-cloud-cottage.local:8123)
+- Settings > People > _name_ > Update Login & Password (pi / home)
+- Creating Encryption Key: Check steps "ESP flash steps.docs"
+- Wifi: Itenium2025 / DenBerg1840!
+  - Gateway: 172.16.10.254
+  - Subnet: 255.255.252.0
