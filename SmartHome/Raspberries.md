@@ -74,3 +74,13 @@ During lunchbreak
 - Settings > Dashboards > Delete all but Overview and Energy
 - Settings > Automations & scenes > Delete all
 - Settings > Devices & services > ESPHome > Delete all devices
+
+
+Change secrets
+--------------
+
+- Settings > Addons > Search for 'File editor' and install it
+- Navigate to the File editor (via settings > addons)
+- click the folder icon on the top left and navigate to the esphome folder and open the secrets.yaml file.
+- Change the ssid and password to Itenium2025 / DenBerg1840!
+- Save
