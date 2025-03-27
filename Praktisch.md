@@ -19,5 +19,5 @@ Teams
 Team1 - The Circuit Breakers: Alexander, Olivier, Jochem, Igor (4)
 Team2 - Fried Chips Anonymous: Bert Maes, Steven, Bert Vermorgen, Joris (4)
 Team3 - Burnt Fingers Club: Michael Dumortier, Michael Branders, Onur, Yannick (4)
-Team4 - Sparks but No Ragrets: Tom Marroyen, Jelle, Nicolas Legrand, Pierre, Tim (5)
-Team5 - The Sparkonauts: Thomas Janssens, Heleen, Nina, Tom Vanacker, Thomas De Brauwer (5)
+Team4 - Sparks but No Ragrets: Tom Marroyen, Jelle, Nicolas Legrand, Pierre, Thomas De Brauwer (5)
+Team5 - The Sparkonauts: Thomas Janssens, Heleen, Nina, Tom Vanacker (4)
