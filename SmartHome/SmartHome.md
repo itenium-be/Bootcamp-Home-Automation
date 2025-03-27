@@ -13,7 +13,7 @@ Home Assistant URL: casa-del-lag.local:8123
 Login: pi / home
 
 
-Huisje3: The Reboot Ranch (EXISTS without HACS)
+Raspberry: The Reboot Ranch (EXISTS without HACS)
 Home Assistant URL: the-reboot-ranch.local:8123
 Login: pi / home
 
