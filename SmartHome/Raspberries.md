@@ -69,7 +69,7 @@ Configuration
 
 
 During lunchbreak
--------------
+-----------------
 
 - Settings > Dashboards > Delete all but Overview and Energy
 - Settings > Automations & scenes > Delete all
