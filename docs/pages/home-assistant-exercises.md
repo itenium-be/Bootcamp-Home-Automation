@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Home Assistant Exercises
+title: Exercises
 permalink: /home-assistant/exercises
 ---
 
-# Home Automation Exercises
+# 🤸📖 Home Assistant Exercises
 {: .pt-3 }
 
 Dit zijn slechts enkele voorstellen, gebruik zeker je eigen verbeelding om leuke ideeën uit te werken.
@@ -26,7 +26,7 @@ De oplossingen voor deze oefeningen worden tijdens het bootcamp geüpload.
 10. Voeg de 'Window' servo motor toe op poort GPIO05. Zorg dat je deze kunt instellen tussen de 0 en 100 die zich vertaalt naar +1 voor de servo motor.
 11. Voeg de 'Fan' motor toe op poort GPIO18 en GPIO19. Zorg dat je deze kunt instellen tussen de -100 en 100 die zich vertaalt naar max speed counter clockwise en max speed clockwise
 
-## Home assistant automation
+## Home Assistant Automation
 
 ### Automations
 
