@@ -3,13 +3,16 @@ homes:
     img: CloudCottage.png
     url: http://the-cloud-cottage.local:8123
     login: pi / home
+    homeIp: 172.16.10.101
 
   - name: Casa del Lag
     img: CasaDelLag.webp
     url: http://casa-del-lag.local:8123
     login: pi / home
+    homeIp: 172.16.10.102
 
   - name: The Overengineered Hut
     img: TheOverengineeredHut.webp
     url: http://the-overengineered-hut.local:8123
     login: pi / home
+    homeIp: 172.16.10.103
