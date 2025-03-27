@@ -85,3 +85,16 @@
 
 - img: step18.png
   steps: Bevestig de female stekker aan de kabel die uit de relais komt.
+
+
+
+- section: Testing Time
+
+- img:
+    - step19.png
+    - step20.png
+  steps:
+    - Sluit de stekkers aan.
+    - "Toevoegen in Home Assistant <a href='http://the-reboot-ranch.local:8123'>The Reboot Ranch</a> (login: pi / home)"
+    - Settings > Devices & Services > Discovered > Add (de naam gekozen tijdens het flashen van de ESP).
+    - Profit!

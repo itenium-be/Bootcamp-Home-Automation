@@ -4,7 +4,7 @@
     - Klik "+ New Device"
 
 - img: flash2.png
-  steps: Geef je device een naam ("mijn mega stopcontact").
+  steps: Geef je device een naam ("mijn mega stopcontact"). Deze naam zal later tijdens het testen verschijnen in Home Assistant.
 
 - img: flash3.png
   steps: Kies je development board (voor het smartstopcontact is dit ESP8266).
