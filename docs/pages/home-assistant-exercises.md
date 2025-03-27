@@ -14,7 +14,11 @@ Dit zijn slechts enkele voorstellen, gebruik zeker je eigen verbeelding om leuke
 
 De oplossingen voor deze oefeningen worden tijdens het bootcamp geüpload.
 
-1. Voeg een nieuw ESP32 device toe in ESPHome and give it a manual IP adress.
+1. Voeg een nieuw ESP32 device toe in ESPHome,zet webserver port op 80 en geef het een manueel ip adres. 
+    Manual ip: (voor overige info zie teamblad)
+    The Cloud Cottage: 172.16.10.101
+    Casa del Lag: 172.16.10.102
+    The Overengineered Hut: 172.16.10.103
 2. Voeg 'left button' en 'right button' toe respectievelijk op poorten GPIO16 en GPIO27.
 3. Voeg de 'steam' sensor toe op poort GPIO34.
 4. Voeg de 'Motion' sensor toe op poort GPIO14.
