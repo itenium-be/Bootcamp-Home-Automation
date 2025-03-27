@@ -65,3 +65,12 @@ Configuration
 - Wifi: Itenium2025 / DenBerg1840!
   - Gateway: 172.16.10.254
   - Subnet: 255.255.252.0
+
+
+
+During lunchbreak
+-------------
+
+- Settings > Dashboards > Delete all but Overview and Energy
+- Settings > Automations & scenes > Delete all
+- Settings > Devices & services > ESPHome > Delete all devices
