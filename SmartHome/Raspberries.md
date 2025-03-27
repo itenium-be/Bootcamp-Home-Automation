@@ -1,13 +1,6 @@
 Raspberries
 ===========
 
-homeassist5.local
-User: pi / home
-
-192.168.100.98:8123
-homeassistant:8123
-
-
 ha : connect to wifi
 --------------------
 
