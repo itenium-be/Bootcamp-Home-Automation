@@ -4,6 +4,12 @@ title: ESP Flashing TL&DR
 permalink: /esp-fast-flashing
 ---
 
+# ESP Flashing
+
+**The soldering must already be done!**
+
+- Put the soldered ESP-01 with wifi module in your computer
+  - While inserting in your computer, connect the loose wire with pin A (see picture below)
 - Home Assistant > ESPHome Builder
   - \+ New Device
     - Pick a goofy name
@@ -21,3 +27,10 @@ permalink: /esp-fast-flashing
     - Connect
   - Prepare For First Use
     - Install
+    - Select downloaded file
+    - Install
+
+
+## Pins Diagram
+
+![Pins diagram]({{ "/assets/img/esp-flash/soldering1.png" | relative_url }})

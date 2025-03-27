@@ -23,6 +23,43 @@ permalink: /esp-flashing
   <img src="{{ '/assets/img/materials/ESP01.png' | relative_url }}" class="img-fluid" style="max-width: 150px;">
 </div>
 
+<h2>Soldering</h2>
+
+<div class="container pt-3">
+  <div class="row">
+    <div class="col-xl-8 col-lg-12 mb-4">
+      <div class="instruction-step position-relative bg-light">
+        <span class="step-number">1</span>
+        <div class="row g-2">
+          <div class="col-6">
+            {%- assign imgUrl = "/assets/img/esp-flash/soldering1.png" -%}
+            {% include img.html src=imgUrl class="instruction-image" %}
+          </div>
+          <div class="col-6">
+            {%- assign imgUrl = "/assets/img/esp-flash/soldering2.png" -%}
+            {% include img.html src=imgUrl class="instruction-image" %}
+          </div>
+        </div>
+        Neem een ESP-01 adapter 2 jumper draden en soldeer deze als volgt.
+      </div>
+    </div>
+
+    <div class="col-xl-4 col-lg-12 mb-4">
+      <div class="instruction-step position-relative bg-light">
+        <span class="step-number">2</span>
+        {% include img.html src="/assets/img/esp-flash/soldering3.png" class="instruction-image" %}
+        <div class="instruction-text">
+          <p>Verbind het losse uiteinde van de jumper draad met pin A (zie vorige foto).</p>
+          <p>Plaats in de computer en laat de jumper kabel los.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<h2>Home Assistant</h2>
+
 {%- assign stepNr = 0 -%}
 
 <div class="container pt-3">
