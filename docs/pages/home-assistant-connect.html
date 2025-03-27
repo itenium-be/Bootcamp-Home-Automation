@@ -1,0 +1,50 @@
+---
+layout: page
+title: Connect to Home Assistant
+permalink: /home-assistant/connect
+---
+
+<h1>De Huisjes</h1>
+
+<div class="container pt-3">
+  <div class="row">
+    <div class="col-lg-6 text-center">
+      <img src="{{ "/assets/img/huisjes/keyestudio.jpg" | relative_url }}" />
+    </div>
+    <div class="col-lg-6">
+      <h2>Smart Home Kit (KS0085)</h2>
+      <p>
+        Deze kit bevat een aantal sensoren en actuatoren die je kan gebruiken om een slim huis te bouwen
+        en is verbonden met Home Assistant.
+      </p>
+      <ul>
+        <li>{% include github-stars.html url="keyestudio/KS0085-Smart-Home-Kit" desc="" %}</li>
+        <li><a href="https://docs.keyestudio.com/projects/KS0085/en/latest/">Official Wiki</a></li>
+      </ul>
+
+      Als je de sensor met GPIOXXX nummer ingeeft in ChatGPT dan weet die wel waar je het over hebt!
+    </div>
+  </div>
+</div>
+
+
+<h1>Onze Huisjes</h1>
+
+<div class="container">
+  <div class="row">
+    {%- for home in site.data.homeassistant.homes -%}
+      <div class="col-xl-4 col-lg-6 mb-4">
+        <div class="instruction-step position-relative bg-light">
+          {%- assign imgUrl = "/assets/img/huisjes/" | append: home.img -%}
+          {% include img.html src=imgUrl class="instruction-image" %}
+          <h4>{{ home.name }}</h4>
+          <p>
+            <a href="{{ home.url }}">{{ home.url }}</a>
+            <br>
+            Login: {{ home.login }}
+          </p>
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
