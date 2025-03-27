@@ -56,10 +56,12 @@ permalink: /stopcontact
             <span class="step-number">{{ stepNr }}</span>
             <div class="row g-2">
               <div class="col-6">
-                <img src="{{ "/assets/img/stopcontact/" | append: step.img[0] | relative_url }}" class="instruction-image">
+                {%- assign imgUrl = "/assets/img/stopcontact/" | append: step.img[0] -%}
+                {% include img.html src=imgUrl class="instruction-image" %}
               </div>
               <div class="col-6">
-                <img src="{{ "/assets/img/stopcontact/" | append: step.img[1] | relative_url }}" class="instruction-image">
+                {%- assign imgUrl = "/assets/img/stopcontact/" | append: step.img[1] -%}
+                {% include img.html src=imgUrl class="instruction-image" %}
               </div>
             </div>
             {% include step-text.html step=step %}
@@ -70,7 +72,8 @@ permalink: /stopcontact
         <div class="col-xl-4 col-lg-6 mb-4">
           <div class="instruction-step position-relative bg-light">
             <span class="step-number">{{ stepNr }}</span>
-            <img src="{{ "/assets/img/stopcontact/" | append: step.img | relative_url }}" class="instruction-image">
+            {%- assign imgUrl = "/assets/img/stopcontact/" | append: step.img -%}
+                {% include img.html src=imgUrl class="instruction-image" %}
             {% include step-text.html step=step %}
           </div>
         </div>
@@ -80,7 +83,8 @@ permalink: /stopcontact
             <span class="step-number">{{ stepNr }}</span>
             <div class="row align-items-center">
                 <div class="col-md-4 mb-3 mb-md-0">
-                  <img src="{{ "/assets/img/stopcontact/" | append: step.img | relative_url }}" class="instruction-image w-100 rounded" alt="Step Description">
+                  {%- assign imgUrl = "/assets/img/stopcontact/" | append: step.img -%}
+                  {% include img.html src=imgUrl class="instruction-image w-100 rounded" %}
                 </div>
                 <div class="col-md-8">
                   {% include step-text.html step=step %}

@@ -46,7 +46,8 @@ permalink: /esp-flashing
         <div class="col-6 mb-4">
           <div class="instruction-step position-relative bg-light">
             <span class="step-number">{{ stepNr }}</span>
-            <img src="{{ "/assets/img/esp-flash/" | append: step.img | relative_url }}" class="instruction-image">
+            {%- assign imgUrl = "/assets/img/esp-flash/" | append: step.img -%}
+            {% include img.html src=imgUrl class="instruction-image" %}
             {% include step-text.html step=step %}
           </div>
         </div>
