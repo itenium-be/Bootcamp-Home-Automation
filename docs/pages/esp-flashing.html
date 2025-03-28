@@ -80,6 +80,14 @@ permalink: /esp-flashing
         </div>
       {%- else -%}
         {%- assign stepNr = stepNr | plus: 1 -%}
+        {% if step.yaml %}
+          <div class="col-lg-6 col-md-12 mb-4">
+            <div class="instruction-step position-relative bg-light">
+              <h5>Code to Paste</h5>
+<pre>{% include espflash.yml %}</pre>
+            </div>
+          </div>
+        {% endif %}
         <div class="col-lg-6 col-md-12 mb-4">
           <div class="instruction-step position-relative bg-light">
             <span class="step-number">{{ stepNr }}</span>
