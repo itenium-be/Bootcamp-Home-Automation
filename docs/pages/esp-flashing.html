@@ -80,7 +80,7 @@ permalink: /esp-flashing
         </div>
       {%- else -%}
         {%- assign stepNr = stepNr | plus: 1 -%}
-        <div class="col-6 mb-4">
+        <div class="col-lg-6 col-md-12 mb-4">
           <div class="instruction-step position-relative bg-light">
             <span class="step-number">{{ stepNr }}</span>
             {%- assign imgUrl = "/assets/img/esp-flash/" | append: step.img -%}
