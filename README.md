@@ -5,7 +5,7 @@
 - Wifi: Itenium2025 / DenBerg1840!
   - Gateway: 172.16.10.254
   - Subnet: 255.255.252.0
-
+- [Website](https://itenium.be/Bootcamp-Home-Automation)
 
 ## Home Automation?
 
